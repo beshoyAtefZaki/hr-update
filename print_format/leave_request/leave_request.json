@@ -1,0 +1,22 @@
+{
+ "align_labels_right": 1, 
+ "creation": "2018-09-11 13:06:54.701410", 
+ "custom_format": 0, 
+ "disabled": 0, 
+ "doc_type": "Leave Request Template", 
+ "docstatus": 0, 
+ "doctype": "Print Format", 
+ "font": "Default", 
+ "format_data": "[{\"fieldname\": \"print_heading_template\", \"fieldtype\": \"Custom HTML\", \"options\": \"<div class=\\\"print-heading\\\" >\\t\\n<center>\\t\\t\\t\\n<h2>Leave Request Template<br><small>{{ doc.name }}</small>\\t\\t\\t\\t</h2></center></div>\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"workflow_state\", \"label\": \"Workflow State\"}, {\"print_hide\": 0, \"fieldname\": \"employee\", \"label\": \"Employee\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"employee_name\", \"label\": \"Employee Name\"}, {\"print_hide\": 0, \"fieldname\": \"region\", \"label\": \"Region\"}, {\"print_hide\": 0, \"fieldname\": \"dept_sec\", \"label\": \"Dept Sec\"}, {\"print_hide\": 0, \"fieldname\": \"id_no\", \"label\": \"ID NO\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"employee_general_number\", \"label\": \"Employee General Number\"}, {\"print_hide\": 0, \"fieldname\": \"nationality\", \"label\": \"Nationality\"}, {\"print_hide\": 0, \"fieldname\": \"designation\", \"label\": \"Designation\"}, {\"print_hide\": 0, \"fieldname\": \"date_exp\", \"label\": \"Date Exp\"}, {\"fieldtype\": \"Section Break\", \"label\": \"Leave\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"leave_starts_on\", \"label\": \"Leave Starts on \"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"leave_ends_on\", \"label\": \"Leave Ends on \"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"tel\", \"label\": \"TEL\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"employee_sign\", \"label\": \"Employee Sign\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"address\", \"label\": \"Address\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"airport\", \"label\": \"AirPort\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"person_in_charge_during_vacation\", \"label\": \"Person in charge during vacation\"}, {\"visible_columns\": [{\"print_hide\": 0, \"fieldname\": \"employee\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"designation\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"general_number\", \"print_width\": \"\"}], \"print_hide\": 0, \"fieldname\": \"alternative_person\", \"label\": \"Alternative person\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"conclusion\", \"label\": \"Conclusion\"}]", 
+ "idx": 0, 
+ "line_breaks": 1, 
+ "modified": "2018-09-11 13:25:44.147523", 
+ "modified_by": "Administrator", 
+ "module": "HR", 
+ "name": "Leave Request", 
+ "owner": "Administrator", 
+ "print_format_builder": 0, 
+ "print_format_type": "Server", 
+ "show_section_headings": 1, 
+ "standard": "Yes"
+}
